@@ -9,3 +9,11 @@ version '1.0'
 repositories {
     mavenCentral()
 }
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
