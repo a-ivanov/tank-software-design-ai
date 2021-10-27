@@ -1,6 +1,6 @@
 package org.awesome.ai;
 
-enum Action {
+public enum Action {
     Shoot,
     MoveNorth,
     MoveEast,

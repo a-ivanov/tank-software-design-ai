@@ -1,6 +1,6 @@
 package org.awesome.ai.state.movable;
 
-enum Orientation {
+public enum Orientation {
 
     /**
      * Y-axis positive.
